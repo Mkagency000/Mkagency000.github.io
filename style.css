@@ -107,9 +107,13 @@ nav a:hover {
 .lien{
  text-align: center;
  justify-content: center;
- 
+  text-decoration: none;
+ color: rgb(0,0,0,0.8);
 }
 
+.lien:hover{
+  color: rgb(0,0,0,1);
+}
 .photo1{
   height: 930px;
   width: 630px;
@@ -304,6 +308,10 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
 
+  .lien{
+  color: rgb(0,0,0,1);
+}
+  
   .liens{
     background: white;
     box-shadow: 0 6px 18px rgb(71, 109, 124);
